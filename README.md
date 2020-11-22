@@ -1,22 +1,22 @@
 # Spring Boot Jasper Reports Tutorial
 This project is a simple Spring Boot app generated using the Spring Boot initializr from [https://start.spring.io/](https://start.spring.io/) to demonstrate embedding Jasper Report in a java web app.
 
--[x] Spring boot app
--[x] Deploy to Tomcat server as .war file
--[x] Jasper Reports IO as report-generation backend
--[x] Demo for generating report from the Spring app in `/api/view`
--[x] Demo for CRUD functionality from the Spring app
--[x] Demo for generating reports from the JasperReport IO server API
+- [x] Spring boot app
+- [x] Deploy to Tomcat server as .war file
+- [x] Jasper Reports IO as report-generation backend
+- [x] Demo for generating report from the Spring app in `/api/view`
+- [x] Demo for CRUD functionality from the Spring app
+- [x] Demo for generating reports from the JasperReport IO server API
 
 # Prerequisites
--[x] JasperReports IO for report generation API - [download](https://community.jaspersoft.com/)
--[x] JasperReports Library to generate PDF from the Spring boot app - [download](https://community.jaspersoft.com/)
--[x] Tomcat - [download](https://tomcat.apache.org/download-90.cgi)
--[x] JasperSoft Studio Professional for designing reports - [download](https://community.jaspersoft.com/)
--[x] MariaDB/MySQL server for sample API
--[x] IntelliJ IDEA (optional)
--[x] Smart Tomcat plugin for IntelliJ IDEA (optional)
--[x] Postman for testing REST API
+- [x] JasperReports IO for report generation API - [download](https://community.jaspersoft.com/)
+- [x] JasperReports Library to generate PDF from the Spring boot app - [download](https://community.jaspersoft.com/)
+- [x] Tomcat - [download](https://tomcat.apache.org/download-90.cgi)
+- [x] JasperSoft Studio Professional for designing reports - [download](https://community.jaspersoft.com/)
+- [x] MariaDB/MySQL server for sample API
+- [x] IntelliJ IDEA (optional)
+- [x] Smart Tomcat plugin for IntelliJ IDEA (optional)
+- [x] Postman for testing REST API
 
 # Tomcat Configuration
 1. Extract all contents of the downloaded jrio-x.x.x archive file
@@ -64,6 +64,6 @@ This project is a simple Spring Boot app generated using the Spring Boot initial
     - DELETE `/api/users/{id}` - will delete the user with `id`
 
 # Testing
--[x] Tested on linux 5.8 running Manjaro
--[ ] Tested on Windows with native binaries
--[ ] Tested on WSL2
+- [x] Tested on linux 5.8 running Manjaro
+- [ ] Tested on Windows with native binaries
+- [ ] Tested on WSL2
